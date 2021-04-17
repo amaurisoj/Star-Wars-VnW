@@ -7,15 +7,15 @@
 }
  @font-face {
         font-family:Gilroy;
-        src: url(/assets/Gilroy-ExtraBold.ttf) format(TrueType);
+        src: url(assets/Gilroy-ExtraBold.ttf) format(TrueType);
 
     }
     @font-face {
       font-family:Sovereign;
-      src: url(/assets/Sovereign.ttf) format(TrueType);
+      src: url(assets/Sovereign.ttf) format(TrueType);
   } 
 header{
-    background-image: url(/assets/starWarsheader.png);
+    background-image: url(assets/starWarsheader.png);
     background-repeat:no-repeat;
     background-size:  100%;
     width: 100%;
