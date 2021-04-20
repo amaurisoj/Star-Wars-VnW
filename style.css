@@ -80,6 +80,7 @@ main{
 }
 .div-download,{
     display: flex;
+    position: relative;
 }
 
 .download-img{
@@ -93,4 +94,8 @@ height: 584px;
     display: flex;
     width: 100%;
 
+}
+
+ul{
+    list-style: none;
 }
