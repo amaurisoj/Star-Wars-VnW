@@ -14,8 +14,6 @@
       font-family:Sovereign;
       src: url("assets/Sovereign.ttf") format(TrueType);
   }
-
-  } 
 header{
     background-image: url("assets/starWarsheader.png");
     background-repeat:no-repeat;
