@@ -13,6 +13,8 @@
     @font-face {
       font-family:Sovereign;
       src: url("assets/Sovereign.ttf") format(TrueType);
+  }
+
   } 
 header{
     background-image: url("assets/starWarsheader.png");
@@ -64,7 +66,7 @@ header{
 
 .header-img{ 
     position: relative;
-    top: 25%;
+    top: 40%;
 }
 
 .header-button{
@@ -72,30 +74,169 @@ header{
     top: 8%;
 }
 main{
-    background-image: url("assets/sta_uo_robot.png");
-    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
 }
-.div-download,{
+.main-section{
+    background-image: url("assets/sta_uo_robot.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 157vh;
+    display: flex;
+    flex-direction: column;
+}
+.div-download{
     display: flex;
     position: relative;
+    bottom: 4vh;
+    width: 95vw;
 }
 
 .download-img{
 background-image: url('assets/strom_trupe_red.png');
 background-repeat: no-repeat;
-width: 397px;
-height: 584px;
+width: 21vw;
+height: 32vw;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+color: #fff;
+margin-top: -2%;
+position: relative;
+left: 20%;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.download{
+    border: 3px solid;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.download-p{
+    padding: 4%;
+    font-size: 1.3rem;
+    text-align: left;
+    opacity: 0.5;
+    text-transform: initial;
 
 }
+.download-p-start{
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 12%;
+    text-transform: uppercase;
+    font-size: 3rem;
+
+
+}
+.p-update{
+    margin-left: 50%;
+    font-size: 0.7rem;
+    opacity: 0.5;
+
+}
+.pop-up-download{
+     text-decoration: none;
+     color: #fff;
+}
+
+.div-container-about{
+    display: flex;
+    width: 98vw;
+    justify-content: flex-end;
+    position: absolute;
+    top: 117vh;
+
+
+}
+.div-container-text{
+    display:flex;
+    flex-direction: column;
+    align-content: flex-end;
+    width: 25vw;
+    text-align: right;
+}
+.p-about-title{
+border-bottom: #000 solid;
+padding-bottom: 2vh;
+font-weight: bold;
+font-size: 2rem;
+text-transform: uppercase;
+width: 13vw;
+position: relative;
+right: -12vw;
+}
+.p-about-description{
+    padding-top: 1vh;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 25vw;
+}
+
+.div-container-img-about{
+    margin-left: 1vw;
+}
+.dive-line{
+    display: flex;
+    width: 99vw;
+}
+.line{
+    position: relative;
+    right:-19vw;
+    top: 2vw;
+    align-items: flex-end;
+
+}
+.main-second-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:120vh ;
+    padding-top: 10vh;
+
+}
+.character-darthmaw,.character-rey{
+    position: relative;
+
+}
+.character-darthmaw{
+    left: 4vw;
+}
+
+.character-rey{
+    top: 5vh;
+}
+ul{
+    list-style: none;
+}
+.menu{
+    text-decoration: none;
+    color: #000;
+    text-align: right;
+}
+
+.section-imgs-atribute{
+    background-color: #2D2D2D;
+    width: 99.2vw;
+
+}
+h2{
+    text-transform: capitalize;
+}
+
 .footer{
     display: flex;
     width: 100%;
+    background-color: #fff;
 
-}
-
-ul{
-    list-style: none;
 }
