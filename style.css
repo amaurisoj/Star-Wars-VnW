@@ -64,7 +64,8 @@ header{
 
 .header-img{ 
     position: relative;
-    top: 40%;
+    top: 29%;
+    width: 65%;
 }
 
 .header-button{
@@ -217,10 +218,37 @@ right: -12vw;
 ul{
     list-style: none;
 }
+.li-title,.li-title-bold{
+    font-size: 5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.div-Title-li{
+    display: flex;
+    width: 30vw;
+}
+.li-title-bold{
+    font-weight: 800;
+}
 .menu{
     text-decoration: none;
     color: #000;
     text-align: right;
+    position: relative;
+    bottom:  10vh;
+    right: 10vw;
+}
+.menu-li{
+    text-decoration: none;
+    color: #000;
+    text-align: right;
+    font-size: 2rem;
+    line-height: 8vh;
+    text-transform: uppercase;
+}
+.menu-li:hover{
+    color: #fff;
+    background-color: rgb(248, 36, 21);
 }
 
 .section-imgs-atribute{
@@ -228,8 +256,63 @@ ul{
     width: 99.2vw;
 
 }
+.second-section-container{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10vw;
+    padding-bottom: 6vh;
+}
+.title-second-section{
+    padding-top: 8vw;
+    font-size: 2.3rem;
+    font-family: Sovereign;
+
+}
 h2{
-    text-transform: capitalize;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 4rem;
+    font-family: Sovereign;
+    font-weight: 400;
+}
+.game-img{
+    display: flex;
+    justify-content: center;
+    width: 99vw;
+    padding-bottom: 5vh;
+}
+.four-imgs{
+    width: 46vw;
+}
+.img-hover:hover{
+background: url("assets/Grupo\ novos\ graficos.png");
+width: 23vw;
+
+}
+.gallery-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-section-paraghp{
+    display: flex;
+    padding-top: 1rem;
+}
+
+.second-section-paraghp-text{
+    display: flex;
+    position: relative;
+    color: #fff;
+    text-align: right;
+    width: 40vw;
+    left: 53vw;
+}
+.container-how-to-play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
 }
 
 .footer{
