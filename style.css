@@ -190,7 +190,7 @@ right: -12vw;
 }
 .line{
     position: relative;
-    right:-19vw;
+    left:18vw;
     top: 2vw;
     align-items: flex-end;
 
@@ -285,8 +285,16 @@ h2{
 }
 .img-hover:hover{
 background: url("assets/Grupo\ novos\ graficos.png");
-width: 23vw;
+background-size:contain;
+width: 21.8vw;
 
+}
+.princpal-img:hover{
+    background: url("assets/Grupo\ novos\ graficos.png");
+    background-repeat:no-repeat;
+    background-size: 44vw;
+    width: 44vw;
+ 
 }
 .gallery-grid{
     display: flex;
@@ -315,12 +323,11 @@ width: 23vw;
 }
 .section-below-character-capitan{
     display: flex;
-    position: absolute;
-    top: 445vh;
+    position: relative;
+    bottom: 45vh;
 }
 .section-below-white-bg{
     display: flex;
-    height: 20vh;
 }
 .footer{
     display: flex;
