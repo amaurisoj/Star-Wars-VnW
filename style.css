@@ -184,15 +184,17 @@ right: -12vw;
 .div-container-img-about{
     margin-left: 1vw;
 }
-.dive-line{
-    display: flex;
-    width: 99vw;
+.div-line{
+    display:flex;
+
 }
 .line{
     position: relative;
-    left:18vw;
-    top: 2vw;
-    align-items: flex-end;
+    margin-top: 2vw;
+    left: 19vw;
+    background-color: #000;
+    width:79vw;
+    height: 4px;
 
 }
 .main-second-container{
@@ -200,7 +202,7 @@ right: -12vw;
     justify-content: center;
     align-items: center;
     height:120vh ;
-    padding-top: 10vh;
+    padding-top: 7vh;
 
 }
 .character-darthmaw,.character-rey{
@@ -252,7 +254,6 @@ ul{
 
 .section-imgs-atribute{
     background-color: #2D2D2D;
-    width: 99.2vw;
 
 }
 .second-section-container{
@@ -285,9 +286,7 @@ h2{
 }
 .img-hover:hover{
 background: url("assets/Grupo\ novos\ graficos.png");
-background-size:contain;
-width: 21.8vw;
-
+background-size:cover;
 }
 .princpal-img:hover{
     background: url("assets/Grupo\ novos\ graficos.png");
