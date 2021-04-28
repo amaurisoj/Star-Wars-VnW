@@ -463,3 +463,28 @@ footer{
 .last-p{
     width: 20vw;
 }
+
+@media (max-width:769px){
+    header{
+        background-size: contain;
+    background-repeat: no-repeat;
+    
+    }
+    .header-logo-wars,.header-logo-star{
+        align-items: center;
+        height: 60%;
+
+    }
+    .header-front-img{
+        
+    }
+    .game-img{
+        flex-wrap:wrap;
+    }
+    .princpal-img{
+        width: 54vw;
+    }
+    .img-hierarc{
+        width: 55vw;
+    }
+}
