@@ -82,6 +82,7 @@ main{
     height: 155vh;
     display: flex;
     flex-direction: column;
+    width: 98vw;
 }
 .div-download{
     display: flex;
@@ -108,6 +109,7 @@ left: 20%;
 .main-container{
     display: flex;
     flex-direction: column;
+    width: 98vw;
 }
 
 .download{
@@ -200,6 +202,7 @@ right: -12vw;
     align-items: center;
     height:120vh ;
     padding-top: 7vh;
+    width: 98vw;
 
 }
 .character-darthmaw,.character-rey{
@@ -212,6 +215,7 @@ right: -12vw;
 
 .character-rey{
     top: 5vh;
+    right: 2vw;
 }
 ul{
     list-style: none;
@@ -251,6 +255,8 @@ ul{
 
 .section-imgs-atribute{
     background-color: #2D2D2D;
+    width: 98vw;
+
 
 }
 .second-section-container{
@@ -258,6 +264,8 @@ ul{
     justify-content: flex-start;
     padding-left: 10vw;
     padding-bottom: 6vh;
+    width: 98vw;
+
 }
 .title-second-section{
     padding-top: 8vw;
@@ -323,8 +331,15 @@ background-size:cover;
     position: relative;
     bottom: 45vh;
 }
+.section-main-below{
+    height: 30vw;
+    width: 98vw;
+
+}
 .section-below-white-bg{
     display: flex;
+    width: 98vw;
+
 }
 .buttons{
     display: flex;
@@ -390,7 +405,7 @@ footer{
 }
 
 .div-principal-footer{ 
-    width: 58vw;
+    width: 68vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -429,6 +444,10 @@ footer{
     width:28.4vw;
     height: 4px;
 }
+.vader-layout{
+    height: 45vw;
+    width: 10vw;
+}
 .Lord-Vader{
     display: flex;
     position: relative;
@@ -440,5 +459,7 @@ footer{
     position: relative;
     bottom: 11vw;
     left: 5vw;
-    width: 2vw;
+}
+.last-p{
+    width: 20vw;
 }
