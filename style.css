@@ -393,7 +393,14 @@ h3{
     width:4vw;
     height: 4px;
 }
+h3:hover{
+    font-weight: 600;
+}
+.button:hover{
+    background: red;
+-webkit-transition: 1.5s ease-out;
 
+}
 footer{
     display: flex;
     width: 100%;
@@ -487,4 +494,9 @@ footer{
     .img-hierarc{
         width: 55vw;
     }
+    
+    .buttons{
+        flex-direction: column;
+    }
+    
 }
