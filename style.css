@@ -17,13 +17,13 @@ header{
     background-image: url("assets/starWarsheader.png");
     background-repeat:no-repeat;
     background-size:cover;
-    width: 100%;
+    width: 99vw;
     height: 88vh;
     display: flex;
     
 }
 .header-container{
-    width: 100%;
+    width: 99.2vw;
     display: flex;
 }
 .header-logo-star{
@@ -38,23 +38,23 @@ header{
 .header-logo-wars{
     width: 80vw;
     height: 61vh;
-    margin-left: 10%;
+    margin-left: 5vw;
     display:flex;
     justify-content:center;
     align-items:flex-end;
 }
 .star-header-logo{
-    width: 35%;
+    width: 25vw;
 }
 
 .star-header-logo-wars{
-    width: 35%;
+    width: 25vw;
 }
 
 .header-front-img{
     display: flex;
-    width:95%;
-    height: 80%;
+    width:95vw;
+    height: 40vw;
     position: absolute;
     justify-content:center;
     align-items: flex-end;
@@ -64,15 +64,14 @@ header{
 .header-img{ 
     position: relative;
     top: 29%;
-    width: 65%;
+    width: 60vw;
 }
 
 .header-button{
     position: relative;
-    top: 8%;
+    top: 4vw;
 }
 main{
-    width: 100vw;
     display: flex;
     flex-direction: column;
 }
@@ -202,7 +201,7 @@ right: -12vw;
     align-items: center;
     height:120vh ;
     padding-top: 7vh;
-    width: 98vw;
+    width: 99.22vw;
 
 }
 .character-darthmaw,.character-rey{
@@ -397,8 +396,19 @@ h3:hover{
     font-weight: 600;
 }
 .button:hover{
-    background: red;
--webkit-transition: 1.5s ease-out;
+    box-shadow: inset  -14vw 0  #D74430, 2px 0 2px #000, 0 4px 4px #707070;
+    transition: box-shadow 1s ease;
+    -webkit-transition: box-shadow 1s ease;
+    -moz-transition: box-shadow 1s ease;
+    -o-transition: box-shadow 1s ease;
+
+}
+.line-button:hover{
+    box-shadow: inset  -6vw 0  #D74430;
+    transition: box-shadow 1s ease-in-out;
+    -webkit-transition: box-shadow 1s ease-in-out;
+    -moz-transition: box-shadow 1s ease-in-out ;
+    -o-transition: box-shadow 1s ease-in-out;
 
 }
 footer{
