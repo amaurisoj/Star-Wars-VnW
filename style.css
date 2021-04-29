@@ -5,12 +5,12 @@
     font-family: 'Open Sans', sans-serif;
 }
  @font-face {
-        font-family:Gilroy;
+        font-family:"Gilroy";
         src: url("assets/Gilroy-ExtraBold.ttf") format(TrueType);
 
     }
     @font-face {
-      font-family:Sovereign;
+      font-family:"Sovereign";
       src: url("assets/Sovereign.ttf") format(TrueType);
   }
 header{
@@ -269,14 +269,14 @@ ul{
 .title-second-section{
     padding-top: 8vw;
     font-size: 3vw;
-    font-family: Sovereign;
+    font-family:"Sovereign";
 
 }
 h2{
     text-transform: uppercase;
     color: #fff;
     font-size: 5vw;
-    font-family: Sovereign;
+    font-family: "Sovereign";
     font-weight: 400;
 }
 .game-img{
@@ -437,7 +437,7 @@ footer{
 }
 .footer-title{
     font-size: 3vw;
-    font-family: Sovereign;
+    font-family: "Sovereign";
     padding-bottom: 2vw;
     padding-top: 8vw;
 }
@@ -565,4 +565,106 @@ footer{
         height: 62vw;
     }
     
+}
+@media (max-width:769px){
+    header{
+        background-size: contain;
+    background-repeat: no-repeat;
+    width: 156vw;
+    height: 68vw;
+    }
+    .header-container{
+        width: 155vw;
+        height: 68vw;
+    }
+    .header-logo-star{
+        align-items:center;
+        justify-content:center;
+        height: 80vw;
+        width: 100vw;
+    }
+    .header-logo-wars{
+        align-items: center;
+        justify-content:center;
+        height: 80vw;
+        width: 100vw;
+
+    }
+    .header-front-img{
+        width: 140vw;
+        height: 60vw;
+        
+    }
+    .header-img{
+        width: 95vw;
+    }
+    .header-button{
+        width: 15vw;
+    }
+    main{
+        width: 156vw;
+    }
+    .main-section{
+        background-size: 60vw;
+        width: 156vw;
+        height: 190vw;
+    }
+    .main-container{
+        height: 167vw;
+    }
+    .div-download{
+        width: 115vw;
+        height: 82vw;
+        align-items: flex-end;
+    }
+    .download-img{
+        height: 75vw;
+        width: 50vw;
+    }
+    .download-p-start{
+        font-size: 7vw;
+    }
+    .download-p{
+        font-size: 2.7vw;
+
+    }
+    .p-update{
+        font-size: 2vw;
+    }
+    .div-container-about{
+        display: flex;
+        padding-top: 20vw;
+        width: 138vw;
+        height: 42vw;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    .div-container-text-about{
+        width: 50vw;
+    }
+    .div-container-text{
+        width: 50vw;
+    }
+    .p-about-title{ 
+        width: 38vw;
+        font-size: 4vw;
+    }
+    .p-about-description{
+        width: 50vw;
+        font-size: 2.5vw;
+    }
+    .cap{
+        width: 50vw;
+    }
+    .main-second-container{
+        height: 20vw;
+    }
+    .div-line{
+        display: flex;
+        padding-top: 80vw;
+        width: 120vw;
+    }
+    .line{
+        width: 120vw;
+    }
 }
