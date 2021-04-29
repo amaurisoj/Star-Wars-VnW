@@ -481,32 +481,88 @@ footer{
     width: 20vw;
 }
 
-@media (max-width:769px){
+@media (max-width:1440px){
     header{
         background-size: contain;
     background-repeat: no-repeat;
-    
+    width: 109.5vw;
+    height: 47.7vw;
     }
-    .header-logo-wars,.header-logo-star{
-        align-items: center;
-        height: 60%;
+    .header-container{
+        width: 109vw;
+        height: 49vw;
+    }
+    .header-logo-star{
+        align-items:flex-end;
+        justify-content:center;
+        height: 33vw;
+        width: 100vw;
+    }
+    .header-logo-wars{
+        align-items: flex-end;
+        justify-content:center;
+        height: 33vw;
+        width: 100vw;
 
     }
     .header-front-img{
+        width: 100vw;
+        height: 41vw;
         
+    }
+    .header-img{
+        width: 63vw;
+    }
+    .header-button{
+        width: 10vw;
+    }
+    .main-container{
+        width: 39vw;
+        height:35vw ;
+
+    }
+    .div-download{
+        width: 32vw;
+        justify-content: flex-end;
+    }
+    .div-container-about{
+        width: 92vw;
+    }
+    .div-container-text{
+        width: 24.5vw;
+    }
+    .cap{
+        width: 23vw;
+    }
+    .div-line{
+        display: none;
+    }
+    .darthmaul{
+    width: 40vw;
+    }
+    .rey{
+    width: 20vw;
+    }
+    .main-second-container{
+    padding-top: 20vw;
     }
     .game-img{
         flex-wrap:wrap;
     }
+    .four-imgs{
+        width: 54vw;
+    }
     .princpal-img{
         width: 54vw;
+    }
+    .img-hover{
+        width: 26.8vw;
     }
     .img-hierarc{
         width: 55vw;
     }
-    
-    .buttons{
-        flex-direction: column;
+    .first-section-footer{
+        height: 62vw;
     }
     
 }
