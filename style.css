@@ -854,6 +854,7 @@ footer{
     }
     .main-section{
         background-size: 130vw;
+        height: 528vw;
     }
     .main-container{
         width: 180vw;
@@ -912,5 +913,101 @@ footer{
         font-size: 7vw;
         width: 200vw;
     }
+    .div-line{
+        width: 207vw;
+        padding-top: 195vw;
+    }
+    .line{
+        width: 207vw;
+    }
+    .main-second-container{
+        height: 363vw;
+    }
+    .character-darthmaw{
+        width: 139vw;
+        padding-top: 123vw;
+    }
+    .darthmaul{
+        width: 180vw;
+        padding-left: 50vw;
+    }
+    .character-rey{
+        width: 0vw;
+        padding-top: 102vw;
+
+    }
+    .rey{
+        width: 70vw
+
+    }
+    .menu{
+        padding-top: 192vw;
+        width: 89vw;
+        height: 20vw;
+    }
+    .div-Title-li{
+        width: 106vw;
+        justify-content: flex-end;
+    }
+    .li-title{
+        width: 58vw;
+        font-size: 10vw;
+    }
+    .li-title-bold{
+        font-size: 10vw;
+    }
+    .menu-li{
+        font-size: 6vw;
+    }
+    li{
+        width: 103vw;
+        height: 11vw;
+
+    }
+    .section-imgs-atribute{
+        padding-top: 20vw;
+        width: 253vw;
+        height: 715vw;
+    }
+    .second-section-container{
+        justify-content: center;
+        width: 250vw;        
+    }
+    .title-second-section{
+        font-size: 10vw;
+    }
+    .gallery-grid{
+        height: 228vw;
+        flex-direction: column;
+   
+        align-content: center;
+    }
+    .four-imgs{
+        width: 142vw;
+        height: 228vw;
+    }
+    .princpal-img{
+        width: 140vw;
+
+    }
+    .princpal-img:hover{
+        width: 143vw;
+
+    }
+    .img-hover{
+        width: 140vw;
+    }
+    .img-hierarc{
+        padding-top: 120vw;
+       width: 210vw;
+    }
+    .second-section-paraghp-text{
+        width: 168vw;
+        padding-top: 349vw;
+    }
+    .container-how-to-play{
+        
+    }
+
 
 }
