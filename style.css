@@ -852,6 +852,9 @@ footer{
         width: 20vw;
         height: 20vw;
     }
+    main{
+        height: 1485vw;
+    }
     .main-section{
         background-size: 130vw;
         height: 528vw;
@@ -1006,8 +1009,119 @@ footer{
         padding-top: 349vw;
     }
     .container-how-to-play{
+        height: 80vw;
+        width: 200vw;
+        justify-content: flex-end;
+    }
+    h2{
+        font-size: 8.5vw;
+    }
+    .section-below-character-capitan{
+        width: 146vw;
+
+    }
+    .character-capitan{
+        width: 187vw;
+        padding-top: 66vw;
+
+    }
+    .buttons{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 220vw;
+    }
+    .div-buttons{
+        height: 80vw;
+        width: 86vw;
+    }
+    h3{
+        font-size: 25vw;
+    }
+    .button{
+        width: 60vw;
+        height: 15vw;
+    }
+    .section-button{
+        font-size: 8vw;
+       
+    }
+    .div-buttons:hover .button{
+        box-shadow: inset  -57vw 0  #D74430, 2px 0 2px #000, 0 4px 4px #707070;
+        transition: box-shadow 1s ease;
+        -webkit-transition: box-shadow 1s ease;
+        -moz-transition: box-shadow 1s ease;
+        -o-transition: box-shadow 1s ease;
+    }
+    .text-below-button,.text-below-button-2{
+        font-size: 6vw;
+        width: 72vw;
+    }
+    .line-button{
+        width: 30vw;
+    }
+    .div-buttons:hover .line-button{
+        box-shadow: inset  -30vw 0  #D74430;
+        transition: box-shadow 1s ease-in-out;
+        -webkit-transition: box-shadow 1s ease-in-out;
+        -moz-transition: box-shadow 1s ease-in-out ;
+        -o-transition: box-shadow 1s ease-in-out;
+    }
+    footer{
+        flex-direction: column;
+        width: 254vw;
+    }
+    .first-section-footer{
+        width: 254vw;
+        height: 240vw;
+    
+    }
+    .div-principal-footer {
+        width: 254vw;
+        height: 224vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .div-footer-allign {
+        width: 85vw;
+        height: 218vw;
         
     }
+    .footer-title{
+        font-size: 15vw;
+    }
+    .p-footer{
+        font-size: 5vw;
+        width:80vw;
+    
+    }
+    .div-app-img{
+        width: 84vw;
+    }
+    .app{
+        width: 40vw;
+
+    }
+    .Lord-Vader{
+        width: 254vw;
+        height:unset;
+    }
+    .vader {
+        width: 290vw;
+
+    }
+    .vnw-paragraph{
+        width: 250vw;
+    }
+    .last-p{
+        width: 188vw;
+        font-size: 6vw;
+    }
+
+
 
 
 }
