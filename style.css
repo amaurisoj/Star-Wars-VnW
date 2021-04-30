@@ -392,10 +392,10 @@ h3{
     width:4vw;
     height: 4px;
 }
-h3:hover{
+.div-buttons:hover h3{
     font-weight: 600;
 }
-.button:hover{
+.div-buttons:hover .button{
     box-shadow: inset  -14vw 0  #D74430, 2px 0 2px #000, 0 4px 4px #707070;
     transition: box-shadow 1s ease;
     -webkit-transition: box-shadow 1s ease;
@@ -403,7 +403,7 @@ h3:hover{
     -o-transition: box-shadow 1s ease;
 
 }
-.line-button:hover{
+.div-buttons:hover .line-button{
     box-shadow: inset  -6vw 0  #D74430;
     transition: box-shadow 1s ease-in-out;
     -webkit-transition: box-shadow 1s ease-in-out;
