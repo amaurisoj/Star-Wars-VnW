@@ -808,5 +808,109 @@ footer{
         width: 80vw;
     }
 
+}
+@media (max-width:320px){
+    body{
+        width: 254vw;
+    }
+    header{
+        background-size: 254vw;
+        height: 100vw;
+        width: 254vw;
+    
+    }
+    .header-container{
+        width: 254vw;
+
+    }
+    .header-logo-star {
+        align-items: center;
+        justify-content: center;
+        height: 135vw;
+        width: 146vw;
+    }
+    .header-logo-wars {
+        align-items: center;
+        justify-content: center;
+        height: 135vw;
+        width: 190vw;
+    }
+    .star-header-logo{
+        width: 60vw;
+    }
+    .star-header-logo-wars{
+        width: 60vw;
+    }
+    .header-front-img{
+        width: 214vw;
+        height: 91vw;
+    }
+    .header-img{
+        width: 125vw;
+    }
+    .header-button{
+        width: 20vw;
+        height: 20vw;
+    }
+    .main-section{
+        background-size: 130vw;
+    }
+    .main-container{
+        width: 180vw;
+    }
+    .div-download{
+        padding-top: 69vw;
+        width: 188vw;
+        height: 207vw;
+    }
+    .download-img{
+        width: 120vw;
+        height: 182vw;
+    }
+    .download-p-start{
+        font-size: 15vw;
+    }
+    .download-p{
+        font-size: 8vw;
+    }
+    .download{
+        font-size: 10vw;
+    }
+    .p-update{
+        width: 116vw;
+        font-size: 6vw;
+    }
+    .div-container-about{
+        padding:0;
+        height: 132vw;
+        width: 227vw;
+
+    }
+    .div-container-text-about{
+        width: 190vw;
+        height: 100vw;
+    }
+    .div-container-text{
+        align-items: flex-end;
+        width: 189vw;
+        font-size: 9vw;
+    }
+    .div-container-img-about{
+        height: 75vw;
+    }
+    .cap{
+        width: 120vw;
+    }
+    .p-about-title{
+        padding-top: 10vw;
+        right:0;
+        width: 79vw;
+        font-size: 9vw;
+    }
+    .p-about-description{
+        padding-top: 5vw;
+        font-size: 7vw;
+        width: 200vw;
+    }
 
 }
